@@ -50,14 +50,14 @@ public class Constants {
     public static final String FILE_SOL = ".sol";
     public static final String FILE_ADDRESS = ".address";
     public static final String MGR_PRIVATE_KEY_URI =
-            "http://%s/WeBASE-Node-Manager/user/privateKey/%s";
-    public static final String WEBASE_SIGN_URI = "http://%s/WeBASE-Sign/sign";
+            "http://%s/Node-Manager/user/privateKey/%s";
+    public static final String WEBASE_SIGN_URI = "http://%s/Sign-Service/sign";
     public static final String WEBASE_SIGN_USER_URI =
-            "http://%s/WeBASE-Sign/user/newUser?encryptType=%s&signUserId=%s&appId=%s&returnPrivateKey=%s";
+            "http://%s/Sign-Service/user/newUser?encryptType=%s&signUserId=%s&appId=%s&returnPrivateKey=%s";
     public static final String WEBASE_SIGN_USER_INFO_URI =
-            "http://%s/WeBASE-Sign/user/%s/userInfo?returnPrivateKey=%s";
+            "http://%s/Sign-Service/user/%s/userInfo?returnPrivateKey=%s";
     public static final String WEBASE_SIGN_VERSION_URI =
-        "http://%s/WeBASE-Sign/version";
+        "http://%s/Sign-Service/version";
     public static final String ACCOUNT1_PATH = "node.key";
     public static final String OPERATE_GROUP_START = "start";
     public static final String OPERATE_GROUP_STOP = "stop";
