@@ -3,7 +3,7 @@ version: v1.5.5
 
 spring:
   datasource:
-    url: jdbc:h2:file:../h2/webasefront;DB_CLOSE_ON_EXIT=FALSE
+    url: jdbc:h2:file:../h2/front;DB_CLOSE_ON_EXIT=FALSE
     databaseName: db
     driverClassName: org.h2.Driver
     serverName:
@@ -51,7 +51,7 @@ spring:
 server:
   port: 5002
   servlet:
-    context-path: /WeBASE-Front
+    context-path: /Front-Service
   connection-timeout: 30000
   tomcat:
     max-threads: 200
